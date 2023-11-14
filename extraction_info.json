@@ -1,0 +1,24 @@
+{
+    "main": {
+        "sample_file": "SAMPLE.CSV",
+        "main_key_column": "\"CUSTOMER_CODE\""
+    },
+    "extraction_info": [
+        {
+            "input": "./indata_files/CUSTOMER.CSV",
+            "output": "./outdata_files/OUT_CUSTOMER.CSV",
+            "key_column": "\"CUSTOMER_CODE\""
+        },
+        {
+            "input": "./indata_files/INVOICE.CSV",
+            "output": "./outdata_files/OUT_INVOICE.CSV",
+            "key_column": "\"CUSTOMER_CODE\"",
+            "relevant_keys": ["\"INVOICE_CODE\""]
+        },
+        {
+            "input": "./indata_files/INVOICE_ITEM.CSV",
+            "output": "./outdata_files/OUT_INVOICE_ITEM.CSV",
+            "key_column": "\"INVOICE_CODE\""
+        }
+    ]
+}

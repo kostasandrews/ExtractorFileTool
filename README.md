@@ -28,24 +28,24 @@ Ensure that the extraction_info.json file follows the required structure:
 {
   "main": {
     "sample_filename": "SAMPLE.CSV",
-    "main_key_column": "CUSTOMER_CODE"
+    "main_key_column": "\"CUSTOMER_CODE\""
   },
   "extraction_info": [
     {
       "input": "CUSTOMER.CSV",
       "output": "OUT_CUSTOMER.CSV",
-      "key_column": "CUSTOMER_CODE"
+      "key_column": "\"CUSTOMER_CODE\""
     },
     {
       "input": "INVOICE.CSV",
       "output": "OUT_INVOICE.CSV",
-      "key_column": "CUSTOMER_CODE",
-      "relevant_keys": ["INVOICE_CODE", "AMOUNT"]
+      "key_column": "\"CUSTOMER_CODE\"",
+      "relevant_keys": ["\"INVOICE_CODE\""]
     },
     {
       "input": "INVOICE_ITEM.CSV",
       "output": "OUT_INVOICE_ITEM.CSV",
-      "key_column": "INVOICE_CODE"
+      "key_column": "\"INVOICE_CODE\""
     }
   ]
 }

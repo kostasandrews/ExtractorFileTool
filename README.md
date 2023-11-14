@@ -10,7 +10,7 @@ extraction process.
 
 ## Install Dependencies:
 
-   No dependancies need to installed apart from the built-in python module.
+   No dependancies need to be installed apart from the built-in python module.
 
 ## Description
 The script performs the following steps:

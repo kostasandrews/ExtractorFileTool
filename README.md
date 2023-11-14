@@ -5,7 +5,7 @@ This script reads extraction information from a JSON file, initializes a `DataEx
 It will produce smaller version of the full database extraction files. It needs a sample file that will provide guidance for the
 important keys/codes to be included in the smaller file versions.
 
-The user can adjust the extraction process from the setup of the JSON file, which will instuct the
+The user can adjust the extraction process from the setup of the JSON file, which will instuct the sequence of the
 extraction process.
 
 ## Install Dependencies:
